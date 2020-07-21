@@ -5,6 +5,7 @@ from datetime import datetime
 import jinja2
 from jinja2 import Template
 import mistune
+from pdflatex import PDFLaTeX
 
 def parse_markdown(in_file):
     '''Read resume data from markdown file'''
@@ -23,7 +24,12 @@ def output_to_tex(filename, data):
 
 def output_to_pdf(filename):
     '''Print resume to new pdf file'''
-    os.system('pdflatex latex/' + filename)
+    os.system('latexmk -pdf latex/' + filename)
+    os.system('latexmk -C')
+    os.system('mv ' + filename[:-3] + 'pdf pdf')
+    os.system('rm Resume-*')
+    # pdf_tex = PDFLaTeX.from_texfile(os.path.join('latex',filename))
+    # pdf, log, cp = pdf_tex.create_pdf(keep_pdf_file=True, keep_log_file=False)
 
 def resumator(in_file, data):
     '''Fill Latex resume template'''
