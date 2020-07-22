@@ -1,0 +1,47 @@
+{
+  "name": "name",
+  "phone": "phone",
+  "email": "email",
+  "website": "website url",
+  "linkedin": "linkedin url",
+  "sections": [
+    {
+      "title": "section 1",
+      "entries": [
+        {
+          "title": "entry 1.1",
+          "subtitle": "entry subtitle",
+          "info": ["bullet point 2", "bullet point 2"],
+          "location": "location",
+          "dates": "dates"
+        },
+        {
+          "title": "entry 1.2",
+          "subtitle": "entry subtitle",
+          "info": ["bullet point 2", "bullet point 2"],
+          "location": "location",
+          "dates": "dates"
+        }
+      ]
+    },
+    {
+      "title": "section 2",
+      "entries": [
+        {
+          "title": "entry 2.1",
+          "subtitle": "entry subtitle",
+          "info": ["bullet point 2", "bullet point 2"],
+          "location": "location",
+          "dates": "dates"
+        },
+        {
+          "title": "entry 2.2",
+          "subtitle": "entry subtitle",
+          "info": ["bullet point 2", "bullet point 2"],
+          "location": "location",
+          "dates": "dates"
+        }
+      ]
+    }
+  ]
+}

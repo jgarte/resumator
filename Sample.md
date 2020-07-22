@@ -1,4 +1,12 @@
-# <Your Name Here>
+# Your Name Here
+
+PHONE: 111-1111
+
+EMAIL: python@gmail.com
+
+WEBSITE: mywebsite.com
+
+LINKEDIN: mylinkedin
 
 ## Education
 
@@ -14,11 +22,15 @@
 
 ### Project 1
 
+#### Data engineer lead
+
 - What you did
 - LOCATION: City, State
 - DATES: date1-date2
 
 ### Project 2
+
+#### Python developer
 
 - What you did
 - LOCATION: City, State
@@ -26,11 +38,15 @@
 
 ### Project 3
 
+#### Research assistant
+
 - What you did
 - LOCATION: City, State
 - DATES: date1-date2
 
 ### Project 4
+
+#### Random role
 
 - What you did
 - LOCATION: City, State
