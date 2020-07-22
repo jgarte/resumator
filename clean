@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -f latex/Resume-* pdf/Resume-*
+rm -f *.out *.aux *.log *.gz
+echo "Done."

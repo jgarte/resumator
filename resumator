@@ -1,4 +1,14 @@
 #!/bin/bash
 
 source env/bin/activate
-python3 resumator.py
+read -e -p "Enter input file name (defaults to Sample.md): " -i "Resume.md" infile
+
+read -e -p "Enter template file name (defaults to template1.tex): " -i "template1.tex" template
+
+if [[ $infile == *".md"* ]]; then
+    echo "Resumating Markdown file..."
+    python3 resumator.py -i $infile -t $template
+else
+    echo "Resumating JSON file..."
+    python3 resumator.py -i $infile -j -t $template
+fi

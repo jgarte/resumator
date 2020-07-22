@@ -30,7 +30,7 @@
         {
           "title": "entry 2.1",
           "subtitle": "entry subtitle",
-          "info": ["bullet point 2", "bullet point 2"],
+          "info": ["bullet point 1", "bullet point 2"],
           "location": "location",
           "dates": "dates"
         },
@@ -39,6 +39,19 @@
           "subtitle": "entry subtitle",
           "info": ["bullet point 2", "bullet point 2"],
           "location": "location",
+          "dates": "dates"
+        }
+      ]
+    },
+    {
+      "title": "section 3",
+      "entries": [
+        {
+          "title": "entry 3.1",
+          "dates": "dates"
+        },
+        {
+          "title": "entry 3.2",
           "dates": "dates"
         }
       ]
