@@ -12,3 +12,5 @@ else
     echo "Resumating JSON file..."
     python3 resumator.py -i $infile -j -t $template
 fi
+
+rm -f templates/*.fdb_latexmk templates/*.aux templates/*.fls templates/*.log templates/*.gz templates/*.out templates/*.pdf

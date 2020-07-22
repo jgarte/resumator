@@ -18,7 +18,7 @@ Table of contents
    * [Schema](#schema)
      * [Markdown Schema](#markdown-schema)
      * [JSON Schema](#json-schema)
-   * [Contact](#contect)
+   * [Contact](#contact)
 <!--te-->
 
 ## Installation
@@ -69,9 +69,7 @@ If you are missing the package, run:
 
 ## Usage
 
-To run the resumator, simply edit the a Markdown or JSON file to your liking and run `./resumator`.
-
-The resumator script will prompt you for a template name and an input file name.
+To run the resumator, simply edit the a Markdown or JSON file to your liking and run `./resumator`. The resumator script will prompt you for a template name and an input file name.
 
 You can also opt to run the python script directly:
 ```

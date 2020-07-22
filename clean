@@ -2,4 +2,5 @@
 
 rm -f latex/Resume-* pdf/Resume-*
 rm -f *.out *.aux *.log *.gz
+rm -f templates/*.fdb_latexmk templates/*.aux templates/*.fls templates/*.log templates/*.gz templates/*.out templates/*.pdf
 echo "Done."
