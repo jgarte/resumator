@@ -1,7 +1,7 @@
 # Resumator
 
 A simple python-automated resume using jinja2 templating. The idea is to simplify the formatting process and make dynamic changes using the minimalistic Markdown format that are carried over to a finalized LaTeX-generated pdf.
-This module defaults to scraping data from a markdown file named "Resume.md" that can be used to input information. It can also be configured to read from a JSON file of the resume information.
+This module defaults to scraping data from a markdown file named "Resume.md" that can be used to input information. It can also be configured to read from a JSON file containing the resume information.
 
 ![resumator_img](images/resumator.png)
 
