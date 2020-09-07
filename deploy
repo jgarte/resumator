@@ -1,0 +1,10 @@
+#!/bin/bash
+# Script to deploy to Github Pages
+
+./resumes/.deployNewResume
+
+cd resumes
+
+git add .
+git commit -m "Update Resume"
+git push

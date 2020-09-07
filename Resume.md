@@ -4,7 +4,7 @@ PHONE: (513) 693-5266
 
 EMAIL: calvang@umich.edu
 
-WEBSITE: calvang.github.io
+WEBSITE: https://calvang.github.io
 
 LINKEDIN: https://www.linkedin.com/in/calvin-huang-9385ba165/
 
@@ -12,10 +12,10 @@ LINKEDIN: https://www.linkedin.com/in/calvin-huang-9385ba165/
 
 ### University of Michigan
 
-#### BSE Computer Science, GPA: 3.824
+#### BSE Computer Science, GPA: 3.850
 
-- Course Highlights: Data Structures & Algorithms, Databases, Computer Architecture, Web Systems, Linear Algebra
-- LOCATION: Ann Arbor, MI
+- Course Highlights: Machine Learning, Computer Vision, Cybersecurity, Data Structures and Algorithms, Databases, Computer Architecture, Web Systems, Linear Algebra
+- LOCATION: Cincinnati, OH
 - DATES: September 2018-expected May 2022
 
 ## Professional Experience
@@ -34,8 +34,8 @@ LINKEDIN: https://www.linkedin.com/in/calvin-huang-9385ba165/
 
 #### Research Assistant, Dr. Kimberlee Kearfott
 
-- Designed accessible, self-assembled radiation detectors for high school students to promote interest in engineering and STEM fields
-- Developed iOS and Android apps and heat map interface for tracking radiation data collected by Raspberry Pi computers in student-built radiation detectors
+- Designed accessible, self-assembled radiation detectors for high school students to promote interest in engineering and STEM fields.
+- Developed iOS and Android apps and heat map interface for tracking radiation data collected by Raspberry Pi computers in student-built radiation detectors.
 - LOCATION: Ann Arbor, MI
 - DATES: September 2019-Present
 
@@ -43,8 +43,8 @@ LINKEDIN: https://www.linkedin.com/in/calvin-huang-9385ba165/
 
 #### Computer Vision Software Engineer
 
-- Implemented AR tag detection algorithms using OpenCV for a fine-and-identify task in the University Rover Challenge
-- Presented professional design reviews to the team to interface with other sub-teams to decide design priorities for implementing obstacle detection
+- Implemented AR tag detection algorithms using OpenCV for a fine-and-identify task in the University Rover Challenge.
+- Presented professional design reviews to the team to interface with other sub-teams to decide design priorities for implementing obstacle detection.
 - LOCATION: Ann Arbor, MI
 - DATES: September 2018-May 2020
 
@@ -55,35 +55,31 @@ LINKEDIN: https://www.linkedin.com/in/calvin-huang-9385ba165/
 #### Web Application for Monitoring Projections of the Spread of COVID-19
 
 - Designed client-side web app using React and Google Maps to visualize global data of COVID-19 cases in the past, present, and future using heat-maps.
-- Developed efficient Rocket (Rust) REST API with server jobs to collect detailed local data at specified time intervals and communicate current data on-demand to the front-end.
+- Developed efficient REST API and used Rust for multithreading to collect  and sanitize detailed geographical data at specified time intervals and communicate current data on-demand to the front-end.
 
-### Personal Web Server
+### Anonymous Video  Conferencing
 
-#### Secure Server for Home Automation
+#### Video Chat Web Application for Virtual Hangouts
 
-- Set up Ubuntu server with Apache, MySQL, and Dynamic DNS services for personal web hosting and secure database storage.
-- Automated home tasks such as efficient lighting using IFTTT applets and webhooks from personal websites to implement the Internet of Things.
+- Incorporated WebRTC video technology into modern video-client web app that can be easily self-hosted for secure and anonymous communication.
+- Set up Node.js backend socketing and custom peer-to-peer server for reliable and secure video calling.
 
 ### Personal Robotic Arm
 
 #### Automated Mini Robotic Arm for Simple Tasks
 
-- Constructed automated 6-axis, 3-D printed robotic arm to perform sorting tasks in a small workspace
-- Created Windows desktop application using .NET Framework to interface with micro-controllers to store data used to automate the robotic arm
+- Constructed automated 6-axis, 3-D printed robotic arm to perform sorting tasks in a small workspace.
+- Created Windows desktop application using .NET Framework to interface with micro-controllers to store data used to automate the robotic arm.
 
 ## Skills
 
 ### Programming Languages
 
-#### C/C++, MATLAB, Python, Switft, C\#, Java, Javascript/TypeScript, Rust, MySQL, MongoDB, DynamoDB
+#### C/C++, MATLAB, Python, Switft, C\#, Java, Javascript/TypeScript, Rust, Julia, MySQL, MongoDB, DynamoDB
 
 ### Technologies and Frameworks
 
-#### OpenCV, .NET, React, NodeJS, Flask, JAX-RS, Rocket (Rust), WebAssembly, AWS, Google Cloud 
-
-### Markup
-
-#### JSON, YAML, Markdown, LaTeX, HTML, XML, CSS
+#### OpenCV, .NET, React, NodeJS, Flask, JAX-RS, Rocket (Rust), Genie(Julia), WebAssembly, AWS, Google Cloud, Jupyter
 
 ## Honors
 
