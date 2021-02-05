@@ -149,5 +149,6 @@ def main():
     # except:
     #     print("Error: could not template LaTeX file.")
     resumator(template_file, resume_data)
+
 if __name__ == '__main__':
     main()
