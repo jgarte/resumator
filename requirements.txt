@@ -1,4 +1,4 @@
-Jinja2==2.11.2
+Jinja2==2.11.3
 mistune==2.0.0a4
 beautifulsoup4==4.9.1
 bs4==0.0.1 
