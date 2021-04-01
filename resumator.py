@@ -2,6 +2,8 @@ import sys
 import os
 import getopt
 import json
+import re
+from pprint import pprint
 from datetime import datetime
 import jinja2
 from jinja2 import Template
@@ -70,6 +72,36 @@ def parse_json(in_file):
         # print(data)
         # return data
         return json.loads(file.read())
+
+def replace_special_characters(data, regex, func):
+    '''Replace specified special characters within json dict'''
+    # print(data)
+    # print("hi")
+    if isinstance(data, dict):
+        for key, val in data.items():
+            data[key] = replace_special_characters(val, regex, func)
+        return data
+    elif isinstance(data, list):
+        for i, item in enumerate(data):
+            data[i] = replace_special_characters(item, regex, func)
+        return data
+    elif isinstance(data, str):
+        return regex.sub(func, data)
+
+def format_data(data):
+    '''Parse inputs to prepare for latex'''
+    rep = {
+        '$': '\$',
+        '#': '\#',
+        '%': '\%',
+        '{': '\{',
+        '}': '\}'
+    }
+    # pprint(data)
+    rep = dict((re.escape(key), val) for key, val in rep.items())
+    regex = re.compile('|'.join(rep.keys()))
+    func = lambda x: rep[re.escape(x.group(0))]
+    return replace_special_characters(data, regex, func)
         
 def output_to_tex(filename, data):
     '''Write resume to new tex file'''
@@ -148,6 +180,8 @@ def main():
     #     resumator(template_file, resume_data)
     # except:
     #     print("Error: could not template LaTeX file.")
+    # print(resume_data)
+    resume_data = format_data(resume_data)
     resumator(template_file, resume_data)
 
 if __name__ == '__main__':
